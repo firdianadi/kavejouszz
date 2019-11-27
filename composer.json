@@ -1,11 +1,8 @@
-"name": "firdianadi/kavejouszz",
-    "description": "nak dek",
-    "keywords": ["masak",
-        "sedap"],
+    "name": "firdianadi/kavejouszz",
+    "description": "nakdek",
+    "keywords": ["masak", "sedap"],
     "license": "MIT",
-    "authors": ["H","A"
-        
-    ],
+    "authors": ["H","A"],
     "type" : "project",
     "require": {
         "php": "^7.2",

@@ -4,7 +4,16 @@
     "description": "nakdek",
     "keywords": ["masak", "sedap"],
     "license": "MIT",
-    "authors": ["H","A"],
+    "authors": [
+        {
+            "name": "hareyo surjantojo",
+            "email": "hsue@gmail.com"
+        },
+        {
+            "name": "fapras",
+            "email": "faprass@gmail.com"
+        }
+    ],
     "type" : "project",
     "require": {
         "php": "^7.2",
@@ -29,45 +38,5 @@
         "mockery/mockery": "^1.0",
         "phpunit/phpunit": "^7.0",
         "symfony/thanks": "^1.0"
-    },
-    "autoload": {
-        "classmap": [
-            "database/seeds",
-            "database/factories"
-        ],
-        "psr-4": {
-            "App\\": "app/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "dont-discover": [
-            ]
-        }
-    },
-    "scripts": {
-        "post-root-package-install": [
-            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
-        ],
-        "post-create-project-cmd": [
-            "@php artisan key:generate"
-        ],
-        "post-autoload-dump": [
-            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan package:discover"
-        ]
-    },
-
-    "config": {
-        "preferred-install": "dist",
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
-
+    }
 }

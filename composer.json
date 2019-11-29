@@ -31,12 +31,5 @@
         "sqlmigration/migrations-seedings": "dev-master",
         "unisharp/laravel-filemanager": "dev-master"
     },
-    "require-dev": {
-        "barryvdh/laravel-debugbar": "^3.2",
-        "filp/whoops": "^2.0",
-        "fzaninotto/faker": "^1.4",
-        "mockery/mockery": "^1.0",
-        "phpunit/phpunit": "^7.0",
-        "symfony/thanks": "^1.0"
-    }
+    
 }
